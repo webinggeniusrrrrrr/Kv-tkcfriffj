@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Firebase Authentication</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div id="login-form">
+    <h3>Login</h3>
+    <input type="email" id="login-email" placeholder="Email">
+    <input type="password" id="login-password" placeholder="Password">
+    <button id="login-btn">Login</button>
+    <p id="login-error-message" class="error-message"></p>
+  </div>
+
+  <div id="signup-form">
+    <h3>Signup</h3>
+    <input type="email" id="signup-email" placeholder="Email">
+    <input type="password" id="signup-password" placeholder="Password">
+    <button id="signup-btn">Signup</button>
+    <p id="signup-error-message" class="error-message"></p>
+  </div>
+
+  <script src="/firebase.js"></script>
+  <script src="/login.js"></script>
+  <script src="/signup.js"></script>
+
+</body>
+</html>
